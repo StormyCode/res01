@@ -20,9 +20,22 @@ namespace test
     /// </summary>
     public partial class MainWindow : Window
     {
+        Controller_Patienten cp;
+
         public MainWindow()
         {
             InitializeComponent();
+            cp = new Controller_Patienten();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            cp.PatientHinzufuegen(t1.Text.ToString(), t2.Text.ToString(), t3.Text.ToString());
+            list.Items.Clear();
+            foreach (Model_Patient p in cp.Patienten)
+            {
+                list.Items.Add(p.Vorname + " " + p.Nachname);
+            }
         }
     }
 }
