@@ -4,9 +4,9 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <Button Content="Button" HorizontalAlignment="Left" Height="23" Margin="10,26,0,0" VerticalAlignment="Top" Width="57" Click="Button_Click"/>
-        <TextBox x:Name="t1" HorizontalAlignment="Left" Height="23" Margin="33,85,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="t2" HorizontalAlignment="Left" Height="23" Margin="33,113,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="t3" HorizontalAlignment="Left" Height="23" Margin="33,141,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="t1" HorizontalAlignment="Left" Height="23" Margin="33,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="t2" HorizontalAlignment="Left" Height="23" Margin="33,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="t3" HorizontalAlignment="Left" Height="23" Margin="33,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <ListBox x:Name="list" HorizontalAlignment="Left" Height="214" Margin="233,49,0,0" VerticalAlignment="Top" Width="230"/>
 
     </Grid>
